@@ -1,0 +1,59 @@
+// Example TypeScript code for a text-based game
+
+// Define a Player class
+class Player {
+    name: string;
+    health: number;
+
+    constructor(name: string) {
+        this.name = name;
+        this.health = 100;
+    }
+
+    attack(enemy: Enemy) {
+        enemy.health -= 10;
+    }
+}
+
+// Define an Enemy class
+class Enemy {
+    name: string;
+    health: number;
+
+    constructor(name: string) {
+        this.name = name;
+        this.health = 50;
+    }
+
+    attack(player: Player) {
+        player.health -= 5;
+    }
+}
+
+// Game loop
+function gameLoop() {
+    const player = new Player("Player");
+    const enemy = new Enemy("Enemy");
+
+    console.log("Welcome to the game!");
+
+    while (player.health > 0 && enemy.health > 0) {
+        // Player attacks enemy
+        player.attack(enemy);
+        console.log(`Player attacks ${enemy.name}. ${enemy.name}'s health: ${enemy.health}`);
+
+        // Enemy attacks player
+        enemy.attack(player);
+        console.log(`${enemy.name} attacks Player. Player's health: ${player.health}`);
+    }
+
+    // Game over
+    if (player.health <= 0) {
+        console.log("Game Over. You lose!");
+    } else {
+        console.log("Congratulations! You defeated the enemy!");
+    }
+}
+
+// Start the game
+gameLoop();

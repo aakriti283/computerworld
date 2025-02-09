@@ -1,0 +1,260 @@
+{
+    margin: 0;
+    font-family: :Arial , sans-serif;
+    border: border-box;
+    weight: 65%;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    height: 57px;
+    background-color :white;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px ;
+    overflow:hidden
+
+}
+
+
+
+.border {
+    border: 3px solid transparent;
+}
+
+
+.pannel {
+    height:40px;
+    background-color:#222f3d ;
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+
+    
+}
+.pannel-opt p {
+    display:inline;
+    margin-left: 10px;
+    
+    
+}
+
+
+.pannel-opt{
+    width: 80%;
+    font-size: .85%rem;
+    
+    
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+
+.hero-section{
+    background-image: url("back.jpg");
+    background-size: contain;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: hsl(0, 9%, 80%);
+    color:#0f1111;
+    display:flex;
+    height:40px;
+    align-items: center;
+    justify-content: center;
+    font-size:0.85rem;
+    bottom:25px;
+    width:80%;
+    margin: bottom 25px; 
+}
+
+.hero-msg1{
+    background-color: hsl(0, 9%, 80%);
+    color:#0f1111;
+    display:flex;
+    height:40px;
+    align-items: center;
+    justify-content: center;
+    font-size:0.85rem;
+    bottom:25px;
+    width:80%;
+    margin: bottom 25px; 
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    background-color:slategrey;
+    
+}
+.box{
+    background-image:url("hero.png");
+    background-size: contains;
+    border: 2px solid transparent;
+    height: 300px;
+    width: 23%;
+    background-color: #f3f3f3;
+    padding: 20px 0px 15px ;
+    margin-top: 5px;
+}
+
+.box1{
+    background-image:url("sql.png");
+    background-size: cover;
+    border: 2px solid transparent;
+    height: 300px;
+    width: 23%;
+    background-color: #f3f3f3;
+    padding: 20px 0px 15px ;
+    margin-top: 5px;
+}
+
+.video-section{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    background-color:lightblue;
+}
+
+.amazon-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.amazon {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+}
+
+.amazon img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: 315px;
+}
+
+.foot-panel0{
+    background-color: antiquewhite;
+    display: block;
+}
+
+.sign-in{
+    background-color: #f3f3f3;
+    color: #0f1111;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    margin-top: 5px;
+
+
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    height:40px;
+    align-items: center;
+    justify-content: center;
+    font-size:0.85rem;
+    bottom:25px;
+    width:80%;
+    margin: bottom 25px; 
+
+}
+.sign-in p{
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    
+}
+
+.footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #1d59a1;
+    color:#f3f3f3;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-top: 5px;
+}
+   
+
+.foot-pannel2{
+    background-color:#222f3d;
+    color:#f3f3f3;
+    height: 300px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:#dddddd;
+
+}
+
+
